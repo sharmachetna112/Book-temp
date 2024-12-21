@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": "feb2"
+    },
+    {
+      "userId": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "id": "ae4b"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "category": "Fiction",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "publicationYear": 1925
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "category": "Fiction",
+      "author": "Harper Lee",
+      "price": 8.99,
+      "publicationYear": 1960
+    },
+    {
+      "id": "3",
+      "title": "Lite history",
+      "category": "history",
+      "author": "Jeff bejos",
+      "price": "200",
+      "publicationYear": "2014"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "category": "Fiction",
+      "author": "Harper Lee",
+      "price": 8.99,
+      "publicationYear": 1960
+    },
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "category": "Fiction",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "publicationYear": 1925
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "category": "Fiction",
+      "author": "Harper Lee",
+      "price": 8.99,
+      "publicationYear": 1960
+    },
+    {
+      "id": "3",
+      "title": "Lite history",
+      "category": "history",
+      "author": "Jeff bejos",
+      "price": "200",
+      "publicationYear": "2014"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "category": "Fiction",
+      "author": "Harper Lee",
+      "price": 8.99,
+      "publicationYear": 1960
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "category": "Fiction",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "publicationYear": 1925
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "category": "Fiction",
+      "author": "Harper Lee",
+      "price": 8.99,
+      "publicationYear": 1960
+    },
+    {
+      "id": "3",
+      "title": "Lite history",
+      "category": "history",
+      "author": "Jeff bejos",
+      "price": "200",
+      "publicationYear": "2014"
+    },
+    {
+      "id": "4",
+      "title": "Great Indian",
+      "category": "history",
+      "author": "MG ",
+      "price": "200",
+      "publicationYear": "1943"
+    }
+  ],
+  "inventory": [
+    {
+      "inventoryId": 1,
+      "isbn": "978-3-16-148410-0",
+      "ranks": 1,
+      "purchased": false,
+      "id": "7d38"
+    },
+    {
+      "inventoryId": 2,
+      "isbn": "978-1-23-456789-7",
+      "ranks": 2,
+      "purchased": false,
+      "id": "9922"
+    },
+    {
+      "id": "a4b9",
+      "ISBN": "978-1-23-456789-8",
+      "name": "Item 978-1-23-456789-8",
+      "rank": "3",
+      "purchased": "true"
+    },
+    {
+      "id": "c21a",
+      "ISBN": "978-1-23-456789-7",
+      "name": "Item 978-1-23-456789-7",
+      "rank": "2",
+      "purchased": "yes"
+    },
+    {
+      "id": "b26b",
+      "ISBN": "978-1-23-456789-12",
+      "name": "Item 978-1-23-456789-12",
+      "rank": "1",
+      "purchased": "no"
+    },
+    {
+      "id": "b53b",
+      "ISBN": "978-1-23-456789-8",
+      "name": "Item 978-1-23-456789-8",
+      "rank": "1",
+      "purchased": "yes"
+    }
+  ],
+  "purchaselog": [
+    {
+      "userId": 1,
+      "inventoryId": 1,
+      "purchaseDate": "2024-12-01",
+      "id": "9fd6"
+    },
+    {
+      "id": "4156",
+      "userId": "1",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T12:33:31.742Z"
+    },
+    {
+      "id": "fcee",
+      "userId": "1",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T12:52:03.149Z"
+    },
+    {
+      "id": "2879",
+      "userId": "1",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T12:52:46.304Z"
+    },
+    {
+      "id": "259c",
+      "userId": "2",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T13:35:22.960Z"
+    },
+    {
+      "id": "74cf",
+      "userId": "2",
+      "inventoryId": "2",
+      "purchaseDate": "2024-12-21T13:41:39.634Z"
+    },
+    {
+      "id": "158b",
+      "userId": "1",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T13:42:51.363Z"
+    },
+    {
+      "id": "e188",
+      "userId": "1",
+      "inventoryId": "1",
+      "purchaseDate": "2024-12-21T13:42:58.487Z"
+    },
+    {
+      "id": "5cab",
+      "userId": "2",
+      "inventoryId": "2",
+      "purchaseDate": "2024-12-21T17:58:37.141Z"
+    }
+  ]
+}
