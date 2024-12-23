@@ -4,8 +4,8 @@ import { FaUserAlt, FaBook, FaListAlt, FaBoxes, FaUserTie, FaCartPlus, FaChartLi
 import { NavLink } from "react-router-dom";
 
 const sidebarItems = [
-  { to: "/user-login", label: "Books", icon: <FaBook /> },
-  { to: "/user-login/shopping-cart", label: "Shopping Cart", icon: <FaCartPlus /> },
+  { to: "/user-login", label: "Shopping Cart", icon: <FaCartPlus /> },
+  //{ to: "/user-login/shopping-cart", label: "Shopping Cart", icon: <FaCartPlus /> },
 ];
 
 const UserSidebar = () => {

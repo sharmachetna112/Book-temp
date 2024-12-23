@@ -12,8 +12,9 @@ const ViewPurchaseLogs = () => {
     e.preventDefault();
     
     // Fetch purchase logs for the selected user
-    axios.get(`http://localhost:5000/purchaselog?userId=${userId}`)  // Mock API for getting purchase logs
+    axios.get(`http://localhost:6060/api/purchaselog/get/${userId}`)  // Actual API for getting purchase logs
       .then(response => {
+        console.log(response.data)
         setPurchaseLogs(response.data);
         setErrorMessage('');
       })
@@ -22,6 +23,21 @@ const ViewPurchaseLogs = () => {
         setPurchaseLogs([]);
       });
   };
+  
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+    
+  //   // Fetch purchase logs for the selected user
+  //   axios.get(`http://localhost:5000/purchaselog?userId=${userId}`)  // Mock API for getting purchase logs
+  //     .then(response => {
+  //       setPurchaseLogs(response.data);
+  //       setErrorMessage('');
+  //     })
+  //     .catch(error => {
+  //       setErrorMessage('Error fetching purchase logs.');
+  //       setPurchaseLogs([]);
+  //     });
+  // };
 
   return (
     <div>
@@ -55,13 +71,18 @@ const ViewPurchaseLogs = () => {
               </tr>
             </thead>
             <tbody>
-              {purchaseLogs.map((log) => (
-                <tr key={log.inventoryId}>
+            {Array.isArray(purchaseLogs) && purchaseLogs.map((log, index) => (
+  // Render your log item here
+  <tr key={log.inventoryId}>
                   <td>{log.userId}</td>
                   <td>{log.inventoryId}</td>
                   <td>{log.purchaseDate}</td>
                 </tr>
-              ))}
+))}
+
+              {/* {purchaseLogs.map((log) => (
+                
+              ))} */}
             </tbody>
           </table>
         </div>

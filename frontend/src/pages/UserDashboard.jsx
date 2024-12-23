@@ -18,7 +18,7 @@ const UserDashboard = () => {
         {/* Navbar */}
         <div
           className="top-0 w-100"
-          style={{ height: "4.1rem", position: "fixed", zIndex: 1 }}
+          style={{ height: "4.1rem", position: "fixed", Index: 1 }}
         >
           <Navbar />
         </div>

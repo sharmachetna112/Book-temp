@@ -10,7 +10,7 @@ import ManageBooks from "./components/adminDashboard/component/books/ManageBooks
 import ManagePurchaseLog from "./components/adminDashboard/component/purchaseLog/ManagePurchaseLog";
 import ManageInventory from "./components/adminDashboard/component/inventory/ManageInventory";
 import ManageUsers from "./components/adminDashboard/component/users/ManageUsers";
-import ManageUserBooks from "./components/userDashboard/component/books/ManageUserBooks";
+//import ManageUserBooks from "./components/userDashboard/component/books/ManageUserBooks";
 import ShoppingCart from "./components/userDashboard/component/shoppingCart/ShoppingCart";
 
 const App = () => {
@@ -27,8 +27,8 @@ const App = () => {
           <Route path="inventory" element={<ManageInventory />} />
         </Route>
         <Route path="/user-login/*" element={<UserDashboard />}>
-          <Route index element={<ManageUserBooks />} />
-          <Route path="shopping-cart" element={<ShoppingCart />} />
+          <Route index element={<ShoppingCart />} />
+          {/* <Route path="shopping-cart" element={<ShoppingCart />} /> */}
         </Route>
       </Routes>
     </Router>
